@@ -61,6 +61,7 @@ body {
 		padding: 1em;
 		border: 0.1em solid;
 		border-radius: 0.25em;
+		z-index: 1000;
 	}
 
 	.cart table {
@@ -69,11 +70,12 @@ body {
 	
 	.cart table {
 		border-collapse: collapse;
+		width: 100%;
 	}
 
-	.cart table, th, td {
+	/* .cart table, th, td {
 		/* border: 1px solid dodgerblue; */
-	}
+	} */
 
 	.cart th, td {
 		padding: 15px;
