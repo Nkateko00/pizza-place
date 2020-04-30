@@ -50,6 +50,8 @@ body {
 
 	.cart {
 		position: fixed;
+		width: 80%;
+		margin: auto;
 		/* width: 40%; */
 		min-height: 15em;
 		background-color: #CDD93F;
@@ -135,7 +137,13 @@ body {
   
   
   @media (min-width: 768px){
-  
+	
+	.cart {
+		width: 40%;
+		/* width: 40%; */
+		/* margin: auto; */
+	}
+
 	.specials {
 	  display: flex;
 	}
