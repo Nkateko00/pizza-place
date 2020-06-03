@@ -136,6 +136,11 @@ body {
 	padding: 1em;
 	background-color: #CDD93F;
   }
+
+  .qty {
+	  padding: 0.5em;
+	  width: 3em;
+  }
   
   
   @media (min-width: 768px){
